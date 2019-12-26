@@ -6,7 +6,8 @@ public class BSTImpl {
 	public Node insertNode(Node node,int val){
 		//this is just demo to test the pull request int the git works proper or not
 		if(node == null){
-			System.out.println("changed from loacl..");
+			System.out.println("changed from remote ......");
+
 			return createNewNode(val);
 		}else if(val < node.data){
 			node.left = insertNode(node.left, val);
