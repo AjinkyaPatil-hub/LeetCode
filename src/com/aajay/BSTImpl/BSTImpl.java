@@ -4,6 +4,7 @@ package com.aajay.BSTImpl;
 public class BSTImpl {
 
 	public Node insertNode(Node node,int val){
+		//this is just demo to test the pull request int the git works proper or not
 		if(node == null){
 			return createNewNode(val);
 		}else if(val < node.data){
